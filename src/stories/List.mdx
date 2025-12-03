@@ -1,0 +1,29 @@
+import { Meta, Primary, Controls, Story } from '@storybook/addon-docs/blocks';
+import * as ListSories from './List.stories';
+import List from '../components/List';
+ 
+<Meta of={ListSories} />
+
+# Tarjeta de Intérprete
+
+---
+
+## Descripción general
+
+Componente React que muestra información detallada sobre un intérprete/actor, incluyendo su foto, nombre, si es destacado y una descripción o biografía.  
+Incluye soporte completo para accesibilidad (ARIA), navegación por teclado y diseño responsivo.
+
+<Primary />
+
+---
+
+## Tabla de propiedades del componente ```List```
+
+<Controls />
+
+---
+
+## Ejemplos
+
+## BruceWillis
+<Story of={ListSories.BruceWillis}/>
