@@ -41,7 +41,6 @@ function List(props) {
                     loading="lazy"
                     className="w-full h-full object-cover"
                 />
-                <figcaption className="sr-only">{props.children}</figcaption>
             </figure>
 
             <header>

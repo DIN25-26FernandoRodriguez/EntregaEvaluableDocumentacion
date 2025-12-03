@@ -13,8 +13,8 @@ parameters: {
 
 export const Default = {
   args: {
-    foto: "https://via.placeholder.com/150",
-    nombre: "Actor Desconocido",
+    foto: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Gerard_Butler_%2829681162176%29.jpg/330px-Gerard_Butler_%2829681162176%29.jpg",
+    nombre: "Fernando Rodríguez",
     esNota10: false,
     children: <div>Descripción del actor desconocido.</div>,
   },
