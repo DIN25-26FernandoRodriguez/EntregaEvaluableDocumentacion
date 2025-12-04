@@ -1,0 +1,67 @@
+---
+id: List
+title: Tarjeta de Intérprete (<List />)
+---
+
+import List from '../components/List';
+
+# Tarjeta de Intérprete
+
+---
+
+## Descripción general
+
+Componente React que muestra información detallada sobre un intérprete/actor, incluyendo su foto, nombre, si es destacado y una descripción o biografía.  
+Incluye soporte completo para accesibilidad (ARIA), navegación por teclado y diseño responsivo.
+
+
+---
+
+## Tabla de propiedades del componente ```List```
+
+
+---
+
+## Ejemplos
+
+## Fernando Rodríguez
+<List
+nombre = "Fernando"
+esNota10={true}
+foto="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Gerard_Butler_%2829681162176%29.jpg/330px-Gerard_Butler_%2829681162176%29.jpg"
+>
+Actor
+</List>
+
+
+## Tom Hanks
+<List
+nombre = "Tom Hanks"
+esNota10={true}
+foto="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/TomHanksPrincEdw031223_%2811_of_41%29_%28cropped%29.jpg/330px-TomHanksPrincEdw031223_%2811_of_41%29_%28cropped%29.jpg"
+>
+Tom Hanks es un actor estadounidense ganador del Óscar por interpretar a Forrest Gump.
+</List>
+
+
+## Jodie Foster
+<List
+nombre = "Jodie Foster"
+esNota10={true}
+foto="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Jodie_Foster-8667.jpg/500px-Jodie_Foster-8667.jpg
+"
+>
+Jodie Foster es una actriz estadounidense ganadora del Óscar por su papel de Clarice Starling en 'El silencio de los corderos
+</List>
+
+
+## 🖼️ Estructura renderizada
+
+El componente genera:
+
+- `<article>` accesible y navegable  
+- `<figure>` con `<img>` y `<figcaption>` oculto para lectores de pantalla  
+- `<header>` con nombre del intérprete  
+- `<p>` con la biografía o descripción  
+
+
